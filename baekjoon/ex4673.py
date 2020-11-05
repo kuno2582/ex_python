@@ -16,4 +16,4 @@ for i in range(len(arr)):
 # Short
 r = range(1, 10001)
 s = sorted(set(r) - {x + sum(map(int, str(x))) for x in r})
-print(*s, sep="\n")
+print(*s, sep="/n")
