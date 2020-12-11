@@ -18,5 +18,5 @@ if len(y) > 1:
 else:
     c = y[0]
 d = max(k) - min(k)
-print(a, b, c, d, sep='\n')
+print(a, b, c, d, sep='/n')
 
